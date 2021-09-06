@@ -11,7 +11,7 @@ SBUS受信機読み取り
 pico-sdkディレクトリがある場所で
 
 ```
-git clone https://github.com/kouhei1970/hello_pwm.git
+git clone https://github.com/kouhei1970/uart_sbus.git
 mkdir build
 cd build
 cmake ..
