@@ -1,8 +1,7 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+/*
+  Copyright (c) Kouhei Ito
+  MIT Licence
+*/
 
 #include <stdio.h>
 #include "pico/stdlib.h"
@@ -18,8 +17,7 @@
 #define STOP_BITS 2//1
 #define PARITY    UART_PARITY_EVEN
 
-// We are using pins 0 and 1, but see the GPIO function select table in the
-// datasheet for information on which other pins can be used.
+//０番と1番ピンに接続
 #define UART_TX_PIN 0
 #define UART_RX_PIN 1
 
