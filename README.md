@@ -5,13 +5,14 @@ SBUS受信機読み取り
 
 念の為
 
-`export PICO_SDK_PATH=../../pico-dsk`
+`export PICO_SDK_PATH=../../pico-sdk`
 
 
 pico-sdkディレクトリがある場所で
 
 ```
 git clone https://github.com/kouhei1970/uart_sbus.git
+cd uart_sbus
 mkdir build
 cd build
 cmake ..
